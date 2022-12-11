@@ -1,12 +1,24 @@
 @import url("https://fonts.cdnfonts.com/css/montserrat");
 
-html,
-.App {
+html {
   height: 100vh;
+  scroll-behavior: smooth;
 }
+
 body {
   min-height: 100%;
   height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: #fff;
+  color: #000;
 }
 
 .App {
@@ -15,7 +27,7 @@ body {
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
   padding: 100px 30px 0;
 }
@@ -26,17 +38,28 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+  color: #856e64;
+  font-weight: normal;
 }
 
 .App-header p {
   font-family: "Montserrat";
   color: #856e64;
   font-size: calc(10px + 4vmin);
+  margin-top: 30px;
 }
 
 .avatars {
   display: flex;
   justify-content: center;
+  padding-bottom: 100px;
 }
 
 .avatar {
@@ -48,8 +71,35 @@ body {
   font-family: "Montserrat";
   color: #856e64;
   font-size: calc(10px + 2vmin);
+  padding-top: 30px;
 }
 
 .form p {
   margin-top: 0;
+}
+
+.getInTouch {
+  margin-top: 20vh;
+}
+
+button {
+  height: 50px;
+  min-width: 180px;
+  font-size: 1em;
+  font-family: "Montserrat";
+  padding: 10px;
+  box-shadow: none;
+  border: #856e64 1px solid;
+  color: #856e64;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+button svg {
+  padding-left: 5px;
+}
+
+iframe {
+  overflow: hidden;
 }
