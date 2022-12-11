@@ -1,5 +1,6 @@
 {
   "name": "yasnaandyoana",
+  "homepage": "https://yoanad.github.io/yasnaandyoana.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -69,7 +70,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -136,5 +138,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
