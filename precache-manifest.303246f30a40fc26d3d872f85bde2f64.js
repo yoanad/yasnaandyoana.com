@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "13781fada9037687f6c6",
-    "url": "/static/css/main.0711963b.chunk.css"
+    "revision": "3e05392e90b86dd8dd0c",
+    "url": "/static/css/main.e44f64ac.chunk.css"
   },
   {
-    "revision": "13781fada9037687f6c6",
-    "url": "/static/js/main.ed1c5166.chunk.js"
+    "revision": "3e05392e90b86dd8dd0c",
+    "url": "/static/js/main.61ce63cf.chunk.js"
   },
   {
     "revision": "72c960c1f3ed0db48cbc",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static/media/Yoana.660dbc5e.svg"
   },
   {
-    "revision": "6675a28b3931845ee1931919fe9bcedf",
+    "revision": "61f83c92d3256b54727eaea1061e7d71",
     "url": "/index.html"
   }
 ];
