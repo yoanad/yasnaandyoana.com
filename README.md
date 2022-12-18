@@ -31,6 +31,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Deployment
 
 ```
-npm run build
+npm run deploy
 
 ```
+Then go to https://github.com/yoanad/yasnaandyoana.com/settings/pages and re-enter yasnaandyoana.com in "Custom domain"/
