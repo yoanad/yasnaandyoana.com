@@ -24,7 +24,7 @@ const App = () => {
       </header>
       <main ref={formRef}>
         <div className='form'>
-          <iframe title="interest form" src="https://docs.google.com/forms/d/e/1FAIpQLSf0vfAcnC_gdUixpfbpFYbFTKDVYmgQoYOTHSc8f4WAeo9aSA/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+          <iframe title="interest form" src="https://docs.google.com/forms/d/e/1FAIpQLSf0vfAcnC_gdUixpfbpFYbFTKDVYmgQoYOTHSc8f4WAeo9aSA/viewform?embedded=true" width="640" height="750" frameborder="0" marginheight="0" marginwidth="0" scrolling="yes">Loading…</iframe>
         </div>
         <div className='avatars'>
           <img src={yasna} className="avatar" alt="logo" />
