@@ -1,0 +1,14 @@
+.about-us-container {
+    padding: 40px;
+}
+
+.about-us-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-column {
+    flex-basis: 50%;
+    text-align: center;
+}

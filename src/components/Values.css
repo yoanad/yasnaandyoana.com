@@ -1,0 +1,14 @@
+.values-container {
+    padding: 40px;
+}
+
+.value-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.value-column {
+    flex-basis: 30%;
+    text-align: center;
+}

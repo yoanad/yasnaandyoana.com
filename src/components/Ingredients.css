@@ -1,0 +1,14 @@
+.ingredients-container {
+    padding: 40px;
+}
+
+.ingredients-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredients-column {
+    flex-basis: 50%;
+    text-align: center;
+}
