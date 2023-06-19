@@ -5,10 +5,10 @@ const Overview = () => {
     return (
         <section className="overview-container">
             <h1>Give your skin a nourishing clean!</h1>
-            <h2>Start today with our soap heroes!</h2>
+            <p>Start today with our soap heroes!</p>
             <img src={overlay} />
             <div>
-                <h3>Did you find the right one for YOU?</h3>
+                <h2>Did you find the right one for YOU?</h2>
                 <button>Contact us!</button>
             </div>
         </section>
