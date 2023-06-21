@@ -1,0 +1,16 @@
+footer {
+    background-color: #DDE1E0;
+}
+
+footer img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer .content {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

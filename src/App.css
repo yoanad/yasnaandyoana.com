@@ -19,12 +19,28 @@
   font-style: normal;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   font-family: 'Montserrat';
+  display: flex;
+  flex-flow: column;
+  åheight: 100%;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 40px;
 }
 
 h1, h2, h3 {
     font-family: 'Roboto-Mono';
+    text-transform: uppercase;
+    color: #4B4B4B;
 }
 
 

@@ -8,6 +8,11 @@
     align-items: center;
 }
 
+.ingredients-column img {
+    width: 565px;
+    height: 637px;
+}
+
 .ingredients-column {
     flex-basis: 50%;
     text-align: center;
