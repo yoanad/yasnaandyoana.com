@@ -1,19 +1,31 @@
 .about-us-container {
     padding: 40px;
+    background-color: #DDE1E0;
+}
+
+.about-us-columns h1 {
+    margin-bottom: 16px;
+}
+.about-us-columns p {
+    margin-top: 0;
 }
 
 .about-us-columns {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .about-us-column {
     flex-basis: 50%;
-    text-align: center;
+    text-align: left;
 }
 
 .about-us-column img {
     width: 515.13px;
     height: 359px;
+}
+
+.image-column {
+    text-align: center;
 }

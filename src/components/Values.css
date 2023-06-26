@@ -1,5 +1,13 @@
 .values-container {
     padding: 40px;
+    background-color: #DDE1E0;
+    display: flex;
+    flex-direction: column;
+}
+
+.values-container h1 {
+    text-align: center;
+    color: #4A6B5F;
 }
 
 .value-columns {
@@ -10,5 +18,18 @@
 
 .value-column {
     flex-basis: 30%;
+    text-align: center;
+}
+
+.value-column .headline {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.value-column .text {
+    font-size: 16px;
+    line-height: 20px;
     text-align: center;
 }

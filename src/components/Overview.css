@@ -1,0 +1,38 @@
+.overview-container {
+    padding: 30px 90px;
+}
+
+.overview-container .image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-container img {
+    width: 1173px;
+    height: 940.61px;
+}
+
+.overview-container h1 {
+    margin-bottom: 13px;
+}
+
+.overview-container .text {
+    font-size: 22px;
+}
+
+.overview-container .cta-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.overview-container .cta-wrapper h2 {
+    font-size: 30px;
+}
+
+.overview-container a {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 22px;
+    text-decoration: underline;
+}

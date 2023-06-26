@@ -30,16 +30,10 @@ nav ul li:not(:last-child) {
 }
 
 nav ul li a {
-    text-decoration: none;
-    font-family: 'Roboto-Mono';
-    color: #4A6B5F;
     font-weight: 500;
     font-size: 16px;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
-    font-family: 'Roboto-Mono';
-    color: #4A6B5F;
     font-weight: 500;
 }

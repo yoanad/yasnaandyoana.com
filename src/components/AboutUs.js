@@ -5,7 +5,7 @@ import founders from '../assets/founders.png'
 const AboutUs = () => {
     return (
         <section className="about-us-container">
-            <h3>ABOUT US</h3>
+            <h1>ABOUT US</h1>
             <div className="about-us-columns">
                 <div className="about-us-column">
                     <p>Welcome to YOYA! We are Yasna and Yoana, two friends who share a passion for natural skincare.
@@ -22,7 +22,7 @@ const AboutUs = () => {
                         <br />
                         Join us on our journey towards healthy and glowing skin, naturally. Follow us on social media (TODO: add insta link)</p>
                 </div>
-                <div className="about-us-column">
+                <div className="about-us-column image-column">
                     <img src={founders} />
                 </div>
             </div>

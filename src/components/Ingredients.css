@@ -5,7 +5,7 @@
 .ingredients-columns {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .ingredients-column img {
@@ -16,4 +16,18 @@
 .ingredients-column {
     flex-basis: 50%;
     text-align: center;
+}
+
+.ingredients-column ul {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.ingredients-column li {
+    margin-bottom: 16px;
+}
+
+.ingredients-column ul, 
+.ingredients-column h1 {
+    text-align: left;
 }
