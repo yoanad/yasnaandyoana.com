@@ -7,9 +7,11 @@ const ContactForm = () => {
             <h1>We sparked your interest? Talk to us!</h1>
             <p>We are happy you landed here! Don't hesitate to ask us any questions about products and orders!</p>
             <form>
-                <input type="email" placeholder="Your email" />
-                <textarea placeholder="Your message"></textarea>
-                <button type="submit">Send</button>
+                <label for="email">Your email</label>
+                <input type="email" id="email" />
+                <label for="message">What do you want to share with us (orders, product wishes, ideas, questions)?</label>
+                <textarea id="message"></textarea>
+                <button type="submit">Submit</button>
             </form>
         </section>
     );

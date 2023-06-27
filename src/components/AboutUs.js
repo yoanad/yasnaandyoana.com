@@ -1,10 +1,11 @@
 import React from 'react';
 import './AboutUs.css';
 import founders from '../assets/founders.png'
+import { ReactComponent as Instagram } from '../assets/instagram.svg'
 
 const AboutUs = () => {
     return (
-        <section className="about-us-container">
+        <section className="about-us-container" id="about">
             <h1>ABOUT US</h1>
             <div className="about-us-columns">
                 <div className="about-us-column">
@@ -20,7 +21,13 @@ const AboutUs = () => {
                         We are proud to offer you soaps that are not only good for your skin but also good for the environment. Our commitment to sustainability extends beyond our ingredients, as we use eco-friendly packaging and strive to minimize waste.
                         <br />
                         <br />
-                        Join us on our journey towards healthy and glowing skin, naturally. Follow us on social media (TODO: add insta link)</p>
+                        Join us on our journey towards healthy and glowing skin, naturally. Follow us on social media:
+                        <br />
+                        <span className='instagram'>
+                            <Instagram />
+                            <a href="https://www.instagram.com/yo.ya.cosmetics/">@yo.ya.cosmetics</a>
+                        </span>
+                    </p>
                 </div>
                 <div className="about-us-column image-column">
                     <img src={founders} />

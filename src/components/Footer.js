@@ -1,20 +1,25 @@
 import React from 'react';
 import './Footer.css';
 import footer from '../assets/footer.png';
+import { ReactComponent as Logo } from '../assets/logo.svg';
+import { ReactComponent as Instagram } from '../assets/instagram.svg'
 
 const Footer = () => {
     return (
         <footer>
-            <img src={footer} alt="Overlay with soaps" />
+            <img className="overlay" src={footer} alt="Overlay with soaps" />
             <div className='content'>
                 <div>
-                    @yo.ya.cosmetics
+                    <span className='instagram'>
+                        <Instagram />
+                        <a href="https://www.instagram.com/yo.ya.cosmetics/">@yo.ya.cosmetics</a>
+                    </span>
                 </div>
                 <div>
-                    Made by [logo]
+                    <span className='logo'>Made by <Logo /></span>
                 </div>
-                <div> Impressum
-                    Copywright YOYA 2023
+                <div>
+                    Copyright &copy; YOYA COSMETICS 2023
                 </div>
             </div>
         </footer>

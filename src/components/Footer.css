@@ -2,10 +2,14 @@ footer {
     background-color: #DDE1E0;
 }
 
-footer img {
+footer .overlay {
     max-height: 300px;
     width: 100%;
     object-fit: cover;
+}
+
+footer svg path {
+    fill: #4A6B5F;
 }
 
 footer .content {
@@ -13,4 +17,33 @@ footer .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 20px;
+    color: #4A6B5F;
+}
+
+footer .content a {
+    font-size: 20px;
+}
+
+footer .content .instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .content .instagram svg {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+footer .content .logo svg {
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+footer .content .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

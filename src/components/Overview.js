@@ -5,7 +5,7 @@ import overlay from '../assets/Soap_overlay.svg'
 
 const Overview = () => {
     return (
-        <section className="overview-container" href="products">
+        <section className="overview-container" id="products">
             <h1>Give your skin a nourishing clean!</h1>
             <p className='text'>Start today with our soap heroes!</p>
             <div className='image-wrapper'>
