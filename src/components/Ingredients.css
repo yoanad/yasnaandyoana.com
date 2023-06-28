@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 
 .ingredients-column img {
@@ -34,6 +33,10 @@
 }
 
 @media only screen and (max-device-width : 480px) {
+    .ingredients-columns{ 
+        flex-wrap: wrap;
+    }
+    
     .ingredients-column {
         flex-basis: 100%;
     }
