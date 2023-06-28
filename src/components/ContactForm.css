@@ -2,6 +2,10 @@
     padding: 40px;
 }
 
+.contact-form .hidden-form {
+    display: none;
+}
+
 .contact-form form {
     display: flex;
     flex-direction: column;
