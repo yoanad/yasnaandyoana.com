@@ -9,16 +9,16 @@ const Footer = () => {
         <footer>
             <img className="overlay" src={footer} alt="Overlay with soaps" />
             <div className='content'>
-                <div>
+                <div className='content-column'>
                     <span className='instagram'>
                         <Instagram />
                         <a href="https://www.instagram.com/yo.ya.cosmetics/">@yo.ya.cosmetics</a>
                     </span>
                 </div>
-                <div>
+                <div className='content-column'>
                     <span className='logo'>Made by <Logo /></span>
                 </div>
-                <div>
+                <div className='content-column'>
                     Copyright &copy; YOYA COSMETICS 2023
                 </div>
             </div>

@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .ingredients-column img {
@@ -30,4 +31,21 @@
 .ingredients-column ul, 
 .ingredients-column h1 {
     text-align: left;
+}
+
+@media only screen and (max-device-width : 480px) {
+    .ingredients-column {
+        flex-basis: 100%;
+    }
+
+    .ingredients-column img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    .ingredients-column ul {
+        font-size: 16px;
+        line-height: 1.2;
+    }
 }

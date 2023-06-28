@@ -1,10 +1,77 @@
-.hero {
+header {
     height: 860px;
     max-height: 860px;
     background-image: url('../assets/Hero.png');
     background-size: cover;
     background-position: center;
-    margin-top: -120px;
-    /* background-position: -400px center; */
     background-repeat: no-repeat;
+    position: relative;
+}
+
+header img {
+    width: 53.85px;
+    height: 26.56px;
+}
+
+.navigation-container {
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 44px;
+}
+
+nav ul li a {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    font-weight: 500;
+}
+
+@media only screen and (max-device-width : 480px) {
+    .navigation-container {
+        flex-direction: column;
+    }
+
+    header img {
+        width: 80px;
+        height: auto;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    .navigation-container {
+        padding: 3% 5%;
+    }
+
+    header {
+        height: 550px;
+        background-image: url('../assets/hero_mobile.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
 }

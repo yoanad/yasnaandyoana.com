@@ -48,9 +48,17 @@
     color: #4B4B4B;
     border-style: none;
     border-color: transparent;
-    /* filter: brightness(1); */
 }
 
 .contact-form button:hover {
     filter: brightness(0.95);
+}
+
+@media only screen and (max-device-width : 480px) {
+    .contact-form form input,
+    .contact-form button,
+    .contact-form textarea
+     {
+        width: 100%;
+    }
 }

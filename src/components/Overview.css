@@ -1,5 +1,5 @@
 .overview-container {
-    padding: 30px 90px;
+    padding: 5% 10%;
 }
 
 .overview-container .image-wrapper {
@@ -35,4 +35,19 @@
     text-transform: uppercase;
     margin-left: 22px;
     text-decoration: underline;
+}
+
+
+@media only screen and (max-device-width : 480px) {
+    .overview-container .cta-wrapper {
+        flex-direction: column;
+    }
+
+    .overview-container{
+        text-align: center;
+    }
+
+    .overview-container a {
+        margin-left: 0px;
+    }
 }

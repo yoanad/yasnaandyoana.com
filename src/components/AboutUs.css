@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .about-us-column {
@@ -40,4 +41,22 @@
     height: 20px;
     margin-right: 5px;
     color: #4A6B5F;
+}
+
+@media only screen and (max-device-width : 480px) {
+    .about-us-columns{
+        flex-direction: column-reverse;
+    }
+
+    .about-us-column img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        margin-bottom: 16px;
+    }
+
+    .ingredients-column ul {
+        font-size: 16px;
+        line-height: 1.2;
+    }
 }
