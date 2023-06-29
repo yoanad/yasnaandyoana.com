@@ -10,7 +10,6 @@ const encode = (data) => {
 const ContactForm = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [formData, setFormData] = useState({ email: "", message: "" });
-    console.log(isSubmitted)
 
     const onChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -32,10 +31,6 @@ const ContactForm = () => {
         <section className="contact-form" id="contact">
             <h1>We sparked your interest? Talk to us!</h1>
             <p>We are happy you landed here! Don't hesitate to ask us any questions about products and orders!</p>
-            <form name="contact" netlify netlify-honeypot="bot-field" hidden className='hidden-form'>
-                <input type="email" name="email" />
-                <textarea name="message"></textarea>
-            </form>
             {isSubmitted ? <h2>Form succesfully submitted!</h2> : (<form onSubmit={onSubmit}>
                 <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor="email">Your email</label>
