@@ -16,8 +16,6 @@ const ContactForm = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     }
 
-    console.log(formData);
-
     const onSubmit = (e) => {
         fetch("/", {
             method: "POST",
@@ -35,11 +33,11 @@ const ContactForm = () => {
             <h1>We sparked your interest? Talk to us!</h1>
             <p>We are happy you landed here! Don't hesitate to ask us any questions about products and orders!</p>
             <form name="contact" netlify netlify-honeypot="bot-field" hidden className='hidden-form'>
-                <input type="hidden" name="form-name" value="contact" />
                 <input type="email" name="email" />
                 <textarea name="message"></textarea>
             </form>
             {isSubmitted ? <h2>Form succesfully submitted!</h2> : (<form onSubmit={onSubmit}>
+                <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor="email">Your email</label>
                 <input type="email" id="email" value={formData.email} name="email" onChange={onChange} required />
                 <label htmlFor="message">What do you want to share with us (orders, product wishes, ideas, questions)?</label>
