@@ -19,7 +19,6 @@ const ContactForm = () => {
     console.log(formData);
 
     const onSubmit = (e) => {
-        e.preventDefault();
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -27,8 +26,9 @@ const ContactForm = () => {
         })
             .then(() => setIsSubmitted(true))
             .catch(error => alert(error));
-    }
 
+        e.preventDefault();
+    }
 
     return (
         <section className="contact-form" id="contact">
