@@ -14,7 +14,6 @@ const ContactForm = () => {
 
     const onChange = (e) => {
         setFormData({ [e.target.name]: e.target.value });
-
     }
 
     const onSubmit = (e) => {
@@ -38,7 +37,6 @@ const ContactForm = () => {
                 <textarea name="message"></textarea>
             </form>
             {isSubmitted ? <h2>Form succesfully submitted!</h2> : (<form onSubmit={onSubmit}>
-                <input type="hidden" name="contact" value="contact" />
                 <label for="email">Your email</label>
                 <input type="email" id="email" value={formData.email} onChange={onChange} required />
                 <label for="message">What do you want to share with us (orders, product wishes, ideas, questions)?</label>
