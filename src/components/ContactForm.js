@@ -9,12 +9,14 @@ const encode = (data) => {
 
 const ContactForm = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
-    const [formData, setFormData] = useState({ email: null, message: null });
+    const [formData, setFormData] = useState({ email: "", message: "" });
     console.log(isSubmitted)
 
     const onChange = (e) => {
-        setFormData({ [e.target.name]: e.target.value });
+        setFormData({ ...formData, [e.target.name]: e.target.value });
     }
+
+    console.log(formData);
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -37,10 +39,10 @@ const ContactForm = () => {
                 <textarea name="message"></textarea>
             </form>
             {isSubmitted ? <h2>Form succesfully submitted!</h2> : (<form onSubmit={onSubmit}>
-                <label for="email">Your email</label>
-                <input type="email" id="email" value={formData.email} onChange={onChange} required />
-                <label for="message">What do you want to share with us (orders, product wishes, ideas, questions)?</label>
-                <textarea id="message" required value={formData.message} onChange={onChange}></textarea>
+                <label htmlFor="email">Your email</label>
+                <input type="email" id="email" value={formData.email} name="email" onChange={onChange} required />
+                <label htmlFor="message">What do you want to share with us (orders, product wishes, ideas, questions)?</label>
+                <textarea id="message" required value={formData.message} name="message" onChange={onChange}></textarea>
                 <button type="submit">Submit</button>
                 {/* <span className='checkbox-container'>
                     <input type="checkbox" name="checkbox" />
