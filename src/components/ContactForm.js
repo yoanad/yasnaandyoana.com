@@ -35,6 +35,7 @@ const ContactForm = () => {
             <h1>We sparked your interest? Talk to us!</h1>
             <p>We are happy you landed here! Don't hesitate to ask us any questions about products and orders!</p>
             <form name="contact" netlify netlify-honeypot="bot-field" hidden className='hidden-form'>
+                <input type="hidden" name="form-name" value="contact" />
                 <input type="email" name="email" />
                 <textarea name="message"></textarea>
             </form>
