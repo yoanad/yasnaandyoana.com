@@ -15,6 +15,10 @@ const ContactForm = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     }
 
+    const onCheckboxChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: !formData.consent });
+    }
+
     const onSubmit = (e) => {
         fetch("/", {
             method: "POST",
@@ -38,7 +42,7 @@ const ContactForm = () => {
                 <label htmlFor="message">What do you want to share with us (orders, product wishes, ideas, questions)?</label>
                 <textarea id="message" required value={formData.message} name="message" onChange={onChange}></textarea>
                 <span className='checkbox-container'>
-                    <input type="checkbox" name="consent" />
+                    <input type="checkbox" name="consent" onChange={onCheckboxChange} />
                     <label htmlFor="checkbox">Keep me up to date about the official release and other news!</label>
                 </span>
                 <button type="submit">Submit</button>
