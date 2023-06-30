@@ -1,6 +1,6 @@
 .about-us-container {
-    padding: 40px;
     background-color: #DDE1E0;
+    scroll-margin-top: 40px;
 }
 
 .about-us-columns h1 {
