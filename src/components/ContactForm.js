@@ -68,9 +68,10 @@ const ContactForm = () => {
                 <input
                   type="checkbox"
                   name="consent"
+                  id="consent-checkbox"
                   onChange={onCheckboxChange}
                 />
-                <label htmlFor="checkbox">
+                <label htmlFor="consent-checkbox">
                   Keep me up to date about the official release and other news!
                 </label>
               </span>
