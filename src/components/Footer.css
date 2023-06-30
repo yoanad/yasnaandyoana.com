@@ -1,5 +1,6 @@
-footer {
+.footer {
     background-color: #DDE1E0;
+    padding: 0;
 }
 
 footer .overlay {

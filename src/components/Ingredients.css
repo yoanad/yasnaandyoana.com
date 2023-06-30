@@ -1,7 +1,3 @@
-.ingredients-container {
-    padding: 40px;
-}
-
 .ingredients-columns {
     display: flex;
     justify-content: space-between;
@@ -27,16 +23,16 @@
     margin-bottom: 16px;
 }
 
-.ingredients-column ul, 
+.ingredients-column ul,
 .ingredients-column h1 {
     text-align: left;
 }
 
 @media only screen and (max-device-width : 480px) {
-    .ingredients-columns{ 
+    .ingredients-columns{
         flex-wrap: wrap;
     }
-    
+
     .ingredients-column {
         flex-basis: 100%;
     }

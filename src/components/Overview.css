@@ -1,5 +1,5 @@
 .overview-container {
-    padding: 5% 10%;
+    scroll-margin-top: 40px;
 }
 
 .overview-container .image-wrapper {
