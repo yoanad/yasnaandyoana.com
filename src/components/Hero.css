@@ -58,6 +58,11 @@ nav ul li a:hover {
     }
 
     header img {
+        width: 100%;
+        height: auto;
+    }
+
+    header img {
         width: 80px;
         height: auto;
     }
@@ -71,8 +76,8 @@ nav ul li a:hover {
     }
 
     header {
-        height: 550px;
-        background-image: url('../assets/hero_mobile.png');
+        height: 80vh;
+        background-image: url('../assets/Hero-mobile.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

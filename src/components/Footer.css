@@ -14,7 +14,7 @@ footer svg path {
 }
 
 footer .content {
-    padding: 40px;
+    padding: 40px 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,6 +54,7 @@ footer .content .logo {
 @media only screen and (max-device-width : 480px) {
     footer .content {
         gap: 16px;
+        padding: 40px 20px;
     }
 
     footer .content .content-column {

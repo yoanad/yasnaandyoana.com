@@ -34,8 +34,10 @@ const AboutUs = () => {
                 <br />
                 <br />
                 Join us on our journey towards healthy and glowing skin,
-                naturally. Follow us on social media:
+                naturally. 
                 <br />
+                <br />
+                  Follow us on social media:
                 <span className="instagram">
                   <Instagram />
                   <a href="https://www.instagram.com/yo.ya.cosmetics/">
