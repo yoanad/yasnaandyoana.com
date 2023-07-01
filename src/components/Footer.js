@@ -1,13 +1,13 @@
 import React from 'react';
 import './Footer.css';
-import footer from '../assets/footer.png';
+import footer from '../assets/footer.jpg';
 import { ReactComponent as Logo } from '../assets/logo.svg';
 import { ReactComponent as Instagram } from '../assets/instagram.svg'
 
 const Footer = () => {
     return (
       <footer className="section footer">
-        <img className="overlay" src={footer} alt="Overlay with soaps" />
+        <img className="overlay" src={footer} alt="Overlay with soaps" loading="lazy" />
         <div className="content-container">
           <div className="content">
             <div className="content-column">

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Ingredients.css';
-import stack from '../assets/soap_stack.png'
+import stack from '../assets/soap-stack.jpg'
 
 const Ingredients = () => {
     return (
@@ -8,7 +8,7 @@ const Ingredients = () => {
         <div className="content-container">
           <div className="ingredients-columns">
             <div className="ingredients-column">
-              <img src={stack} />
+              <img src={stack} alt="stack of soaps" loading="lazy" />
             </div>
             <div className="ingredients-column">
               <h1>Our ingredients</h1>

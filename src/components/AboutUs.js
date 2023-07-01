@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutUs.css';
-import founders from '../assets/founders.png'
+import founders from '../assets/founders.jpg'
 import { ReactComponent as Instagram } from '../assets/instagram.svg'
 
 const AboutUs = () => {
@@ -47,7 +47,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="about-us-column image-column">
-              <img src={founders} />
+              <img src={founders} loading="lazy" alt="us" />
             </div>
           </div>
         </div>
