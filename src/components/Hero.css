@@ -51,10 +51,16 @@ nav ul li a:hover {
         flex-direction: column;
         position: fixed;
         top: 0;
-        width: auto;
         left: 0;
         right: 0;
-        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        padding-block-end: 0;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    header img {
+        width: 100%;
+        height: auto;
     }
 
     header img {
@@ -66,13 +72,8 @@ nav ul li a:hover {
         padding: 0;
     }
 
-    .navigation-container {
-        padding: 3% 5%;
-    }
-
     header {
-        height: 550px;
-        background-image: url('../assets/hero_mobile.png');
+        height: 80vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

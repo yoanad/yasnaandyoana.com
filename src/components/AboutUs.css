@@ -19,6 +19,7 @@
 
 .about-us-column {
     flex-basis: 50%;
+    flex-grow: 1;
     text-align: left;
 }
 
@@ -29,6 +30,7 @@
 
 .image-column {
     text-align: center;
+    align-self: flex-start;
 }
 
 .about-us-column .instagram {
@@ -53,6 +55,10 @@
         max-height: 300px;
         object-fit: cover;
         margin-bottom: 16px;
+    }
+
+    .image-column {
+        margin: 0 -20px;
     }
 
     .ingredients-column ul {

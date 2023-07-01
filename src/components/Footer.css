@@ -14,7 +14,7 @@ footer svg path {
 }
 
 footer .content {
-    padding: 40px;
+    padding: 40px 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,12 +51,23 @@ footer .content .logo {
     align-items: center;
 }
 
+.copyright {
+    font-size: 16px;
+}
+
 @media only screen and (max-device-width : 480px) {
     footer .content {
         gap: 16px;
+        padding: 40px 20px;
+        font-size: 14px;
     }
 
     footer .content .content-column {
         flex-basis: 100%;
+        text-align: center;
+    }
+
+    .copyright {
+        padding-top: 20px;
     }
 }

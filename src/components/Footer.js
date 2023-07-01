@@ -23,8 +23,8 @@ const Footer = () => {
                 Made by <Logo />
               </span>
             </div>
-            <div className="content-column">
-              Copyright &copy; YOYA COSMETICS 2023
+            <div className="content-column copyright">
+              <span>Copyright &copy; YOYA COSMETICS 2023</span>
             </div>
           </div>
         </div>
