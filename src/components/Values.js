@@ -11,7 +11,7 @@ const Values = () => {
         <h1>WHAT WE STAND FOR</h1>
         <div className="value-columns">
           <div className="value-column">
-            <img src={hands} />
+            <img src={hands} alt="" />
             <p className="headline">100% handmade</p>
             <p className="text">
               Each of our soaps is made by hand with care and attention to
@@ -19,7 +19,7 @@ const Values = () => {
             </p>
           </div>
           <div className="value-column">
-            <img src={trees} />
+            <img src={trees}  alt="" />
             <p className="headline">Natural ingredients</p>
             <p className="text">
               Our soaps are made with only natural ingredients, carefully
@@ -27,7 +27,7 @@ const Values = () => {
             </p>
           </div>
           <div className="value-column">
-            <img src={perfume} />
+            <img src={perfume}  alt="" />
             <p className="headline">No artifical fragrances</p>
             <p className="text">
               We do not use any synthetic fragrances in our soaps, we rely only
